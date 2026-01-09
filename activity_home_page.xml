@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\t\t\t\t\t\t\t\t\Welcome  to your  \t\t\t\t\t\t\t\t\t\t\t\t\t\t safe space"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-41dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="199dp"
+        app:srcCompat="@drawable/dm"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChatBot"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Growth"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journal"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="377dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/bar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="564dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
