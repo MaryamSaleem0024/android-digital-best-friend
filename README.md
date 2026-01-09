@@ -3,6 +3,8 @@
 ## Overview
 An AI-based mobile application designed to provide users with intelligent chat and emotional support through text interaction.
 
+## Screen Shots
+
 ## Key Features
 - AI chat interaction
 - User-friendly interface
